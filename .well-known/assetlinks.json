@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.ebhova",
+      "sha256_cert_fingerprints": ["1E:95:BD:15:90:12:C7:5A:A4:D6:A9:B5:BC:20:31:2B:3B:FD:F7:9A:0A:45:79:4B:65:03:EA:4C:23:AE:EA:E1"]
+    }
+  }
+]
