@@ -13,10 +13,15 @@ if (navegadores = navigator.userAgent.toLowerCase().indexOf('op') > -1) {
 }else if (navegadores = navigator.userAgent.indexOf('Safari') > -1) {
     browser = "Safari";
 }
-console.log(browser)
-if (browser == "Safari" || browser == "Opera") {
-    Swal.fire({
-        imageUrl: "add-home.gif",
-        confirmButtonText: "Entendi!", 
-    });
+if (browser == "Safari" || browser == "Google Chrome" || browser == "Opera") {
+    var ls = localStorage.getItem("modal");
+    if(!ls){
+        Swal.fire({
+            title: '<strong>Adicionar App à tela inicial!</strong>',
+            imageUrl: "add-home.gif",
+            showCloseButton: true,
+            confirmButtonText: "Entendi!", 
+        });
+    }
 };
+localStorage.setItem("modal", false);
