@@ -17,8 +17,8 @@ if (browser == "Safari" || browser == "Google Chrome" || browser == "Opera") {
     var ls = localStorage.getItem("modal");
     if(!ls){
         Swal.fire({
-            imageHeight: '600px',
-            imageWidth: '300px',
+            imageHeight: '450px',
+            imageWidth: '250px',
             background: '#1C1C1C',
             title: '<h5 style="color:#fff">Como instalar no IOS!</h5>',
             imageUrl: "add-home-dm.gif",
