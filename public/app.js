@@ -17,7 +17,11 @@ if (browser == "Safari" || browser == "Google Chrome" || browser == "Opera") {
     var ls = localStorage.getItem("modal");
     if(!ls){
         Swal.fire({
-            title: '<strong>Adicionar App à tela inicial!</strong>',
+            icon: 'info',
+            imageHeight: '450px',
+            imageWidth: '300px',
+            background: '#1C1C1C',
+            title: '<strong style="font-size:25px; color: #fff">Adicione o App à tela inicial!</strong>',
             imageUrl: "add-home.gif",
             showCloseButton: true,
             confirmButtonText: "Entendi!", 
