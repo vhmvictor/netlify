@@ -21,7 +21,7 @@ if (browser == "Safari" || browser == "Google Chrome" || browser == "Opera") {
             imageHeight: '450px',
             imageWidth: '300px',
             background: '#1C1C1C',
-            title: '<strong style="font-size:25px; color: #fff">Adicione o App à tela inicial!</strong>',
+            title: '<strong style="font-size:25px; color: #fff">Adicione o App à tela inicial.</strong>',
             imageUrl: "add-home.gif",
             showCloseButton: true,
             confirmButtonText: "Entendi!", 
