@@ -17,12 +17,11 @@ if (browser == "Safari" || browser == "Google Chrome" || browser == "Opera") {
     var ls = localStorage.getItem("modal");
     if(!ls){
         Swal.fire({
-            icon: 'info',
-            imageHeight: '450px',
+            imageHeight: '600px',
             imageWidth: '300px',
             background: '#1C1C1C',
-            title: '<strong style="font-size:25px; color: #fff">Adicione o App à tela inicial.</strong>',
-            imageUrl: "add-home.gif",
+            title: '<h5 style="color:#fff">Como instalar no IOS!</h5>',
+            imageUrl: "add-home-dm.gif",
             showCloseButton: true,
             confirmButtonText: "Entendi!", 
         });
